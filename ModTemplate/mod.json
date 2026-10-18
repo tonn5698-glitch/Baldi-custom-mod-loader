@@ -1,0 +1,10 @@
+{
+  "id": "my-first-mod",
+  "name": "My First Mod",
+  "version": "1.0.0",
+  "description": "Example mod folder",
+  "enabled": true,
+  "scriptAssemblies": [],
+  "assetBundles": [],
+  "levels": ["Levels/example.json"]
+}

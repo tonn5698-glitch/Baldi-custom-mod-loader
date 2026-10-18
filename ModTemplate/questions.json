@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "text": "CUSTOM QUESTION 1:\nWhat is 2 + 2?",
+      "answer": "4"
+    },
+    {
+      "text": "CUSTOM QUESTION 2:\nWhat is 5 + 3?",
+      "answer": "8"
+    },
+    {
+      "text": "CUSTOM QUESTION 3:\nWhat is 10 - 4?",
+      "answer": "6"
+    }
+  ]
+}

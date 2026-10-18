@@ -1,0 +1,7 @@
+{
+  "id": "example-level",
+  "name": "Example Level",
+  "description": "Replace this with your custom level metadata",
+  "sceneBundle": "Bundles/example-levels",
+  "sceneName": "ExampleLevel"
+}
