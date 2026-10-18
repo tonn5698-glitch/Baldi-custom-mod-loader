@@ -5,6 +5,7 @@ on:
   push:
     branches: [main]
     paths-ignore:
+      - '.github/**'
       - 'README.md'
       - 'MOD_LOADER_README.txt'
       - '.gitignore'
@@ -27,11 +28,12 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
         with:
           targetPlatform: Android
           buildName: BaldiCustomModLoader
-          buildPath: build/Android
-          androidAppBundle: false
+          buildsPath: build
+          androidExportType: androidPackage
           allowDirtyBuild: true
 
       - name: Upload APK artifact
